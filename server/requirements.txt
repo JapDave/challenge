@@ -11,3 +11,4 @@ Pillow==10.3.0
 stripe==9.8.0
 django-environ==0.11.2
 setuptools==70.0.0
+django-ninja==0.21.0
