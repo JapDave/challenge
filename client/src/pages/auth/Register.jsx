@@ -29,7 +29,7 @@ export default function Register() {
 
             setLoading(false)
 
-            navigate('/auth/login')
+            navigate('auth/login')
         } catch (error) {
             setLoading(false)
             // TODO: handle errors

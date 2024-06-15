@@ -38,11 +38,11 @@ export default function Navbar() {
               </NavDropdown>
             </li>
             {isLoggedIn ? (
-              <li className='nav-item'><NavLink className={'nav-link'} to={'/auth/user'}>User</NavLink></li>
+              <li className='nav-item'><NavLink className={'nav-link'} to={'auth/user'}>User</NavLink></li>
             ) : (
               <>
-                <li className='nav-item'><NavLink className={'nav-link'} to={'/auth/login'}>Login</NavLink></li>
-                <li className='nav-item'><NavLink className={'nav-link'} to={'/auth/register'}>Register</NavLink></li>
+                <li className='nav-item'><NavLink className={'nav-link'} to={'auth/login'}>Login</NavLink></li>
+                <li className='nav-item'><NavLink className={'nav-link'} to={'auth/register'}>Register</NavLink></li>
               </>
             )}
           </ul>

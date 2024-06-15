@@ -61,6 +61,7 @@ INSTALLED_APPS = [
 
     # Apps
     'user',
+    'drf_yasg',
 ]
 
 MIDDLEWARE = [
@@ -221,3 +222,13 @@ REST_FRAMEWORK = {
 }
 
 AUTH_USER_MODEL = 'user.User'
+# SWAGGER_SETTINGS = {
+#     'SECURITY_DEFINITIONS': {
+#         'Token': {
+#             'type': 'apiKey',
+#             'name': 'Authorization',
+#             'in': 'header'
+#         },
+#     },
+#     'USE_SESSION_AUTH': False
+# }
